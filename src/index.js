@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import sequenceSum from './sequenceSum';
+import smallestDivisor from './smallestDivisor';
 
-export default sequenceSum;
+export default smallestDivisor;

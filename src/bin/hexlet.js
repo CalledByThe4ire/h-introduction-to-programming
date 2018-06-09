@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 /* eslint-disable function-paren-newline */
-import sequenceSum from '..';
+import smallestDivisor from '..';
 
 console.log(
-  sequenceSum(
-    Number(process.argv[process.argv.length - 2]),
+  smallestDivisor(
     Number(process.argv[process.argv.length - 1]),
   ),
 );
