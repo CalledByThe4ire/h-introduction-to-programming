@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import sequenceSum from './sequenceSum';
+import diff from './diff';
 
-export default sequenceSum;
+export default diff;
