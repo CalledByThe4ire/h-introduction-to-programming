@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import diff from './diff';
+import math from './math';
 
-export default diff;
+export default math;
