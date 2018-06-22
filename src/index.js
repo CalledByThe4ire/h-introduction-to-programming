@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import math from './math';
+import solution from './solution';
 
-export default math;
+export default solution;
