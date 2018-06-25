@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import solution from './solution';
+import isPerfect from './isPerfect';
 
-export default solution;
+export default isPerfect;
