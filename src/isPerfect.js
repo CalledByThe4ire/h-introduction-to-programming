@@ -1,17 +1,20 @@
 // BEGIN (write your solution here) (write your solution here)
 // @flow
 const isPerfect = (n: number): boolean => {
-  if (n <= 0) {
-    return false;
+  if (n === 0) return false;
+
+  let divisor: number = 1;
+  let sum: number = 0;
+
+  while (divisor < n) {
+    if (n % divisor === 0) sum += divisor;
+    divisor += 1;
   }
 
-  let sum = 0;
-  for (let i: number = 1; i <= n / 2; i += 1) {
-    if (n % i === 0) {
-      sum += i;
-    }
+  if (sum === n) {
+    return true;
   }
-  return sum === n;
+  return false;
 };
 // END
 
