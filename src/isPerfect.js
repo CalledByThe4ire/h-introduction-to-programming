@@ -1,18 +1,35 @@
 // BEGIN (write your solution here) (write your solution here)
 // @flow
-const isPerfect = (n: number): boolean => {
-  if (n === 0) return false;
-
-  let divisor: number = 1;
-  let sum: number = 0;
-
-  while (divisor < n) {
-    if (n % divisor === 0) sum += divisor;
-    divisor += 1;
+const isPrime = (number: number): boolean => {
+  if (number < 2) {
+    return false;
   }
 
-  if (sum === n) {
-    return true;
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
+};
+
+const EuclidEulerTheorem = (number: number): number | null => {
+  if (!isPrime((2 ** number) - 1)) {
+    return null;
+  }
+  return (2 ** (number - 1)) * ((2 ** number) - 1);
+};
+
+const isPerfect = (number: number): boolean => {
+  if (number <= 0) {
+    return false;
+  }
+
+  for (let i = 1; i < number; i += 1) {
+    if (number === EuclidEulerTheorem(i)) {
+      return true;
+    }
   }
   return false;
 };
