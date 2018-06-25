@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import isPerfect from './isPerfect';
+import fizzBuzz from './fizzBuzz';
 
-export default isPerfect;
+export default fizzBuzz;
