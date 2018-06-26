@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import reverseInt from './reverseInt';
+import formattedTime from './formattedTime';
 
-export default reverseInt;
+export default formattedTime;
