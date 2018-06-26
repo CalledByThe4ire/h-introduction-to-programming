@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import fizzBuzz from './fizzBuzz';
+import reverseInt from './reverseInt';
 
-export default fizzBuzz;
+export default reverseInt;
