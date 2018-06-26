@@ -3,4 +3,4 @@
 
 // END
 
-export default sumSquareDifference;
+export default dnaToRna;

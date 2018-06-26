@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import sumSquareDifference from './sumSquareDifference';
+import dnaToRna from './dnaToRna';
 
-export default sumSquareDifference;
+export default dnaToRna;
