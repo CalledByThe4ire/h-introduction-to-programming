@@ -2,3 +2,5 @@
 // @flow
 
 // END
+
+export default sumSquareDifference;

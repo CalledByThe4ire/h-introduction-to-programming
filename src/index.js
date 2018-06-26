@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import ackermann from './ackermann';
+import sumSquareDifference from './sumSquareDifference';
 
-export default ackermann;
+export default sumSquareDifference;
