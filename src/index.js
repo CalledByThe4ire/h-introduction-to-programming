@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import formattedTime from './formattedTime';
+import ackermann from './ackermann';
 
-export default formattedTime;
+export default ackermann;
