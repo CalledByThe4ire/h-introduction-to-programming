@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import reverse from './reverse';
+import areBracketsBalanced from './areBracketsBalanced';
 
-export default reverse;
+export default areBracketsBalanced;
