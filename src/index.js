@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import isHappyTicket from './isHappyTicket';
+import invertCase from './invertCase';
 
-export default isHappyTicket;
+export default invertCase;
