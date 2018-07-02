@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import sumSquareDifference from './sumSquareDifference';
+import formattedTime from './formattedTime';
 
-export default sumSquareDifference;
+export default formattedTime;
