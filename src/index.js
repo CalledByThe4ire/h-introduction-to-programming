@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import formattedTime from './formattedTime';
+import isHappyNumber from './isHappyNumber';
 
-export default formattedTime;
+export default isHappyNumber;
