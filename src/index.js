@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import invertCase from './invertCase';
+import reverse from './reverse';
 
-export default invertCase;
+export default reverse;
