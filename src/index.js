@@ -1,5 +1,5 @@
 // @flow
 /* eslint-disable import/extensions */
-import isHappyNumber from './isHappyNumber';
+import isHappyTicket from './isHappyTicket';
 
-export default isHappyNumber;
+export default isHappyTicket;
